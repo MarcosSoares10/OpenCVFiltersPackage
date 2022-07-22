@@ -81,7 +81,7 @@ def contrast(image, contrast):
     temp_img = np.clip(temp_img, 0, 255)
     return np.uint8(temp_img)
 
-namefile="POS RENDER_ok.png"
+namefile="test_img.png"
 
 
 img = cv2.imread(namefile)
